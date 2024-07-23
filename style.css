@@ -1,0 +1,28 @@
+.container{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 5px;
+    border: red solid 4px;
+    flex-flow: row nowrap;
+    /* justify-content: space-around; */
+    /* align-items: baseline; */
+    /* align-content: space-between; */
+    /* height: 70vh; */
+    
+}
+.container > *{
+    background-color: aquamarine;
+    border: blue solid 3px;
+
+    width: 200px;
+    flex-basis: 100px;
+    /* min-width: 100px; */
+    /* max-width: 200px; */
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+.col1{
+    order: 1;
+}
